@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Primary*/
+    --soft-blue:hsl(215, 51%, 70%);
+    --cyan:hsl(178, 100%, 50%);
+
+    --very-dark-blue-main:hsl(217, 54%, 11%);
+    --very-dark-blue-card:hsl(216, 50%, 16%);
+    --very-dark-blue-line:hsl(215, 32%, 27%);
+    --white:  hsl(0, 0%, 100%);
+}
+
+
+
+.container{
+    background-color: var(--very-dark-blue-main);
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.square{
+    background-color: var(--very-dark-blue-card);
+    height: 410px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.067) 5px 20px ;
+    position: relative;
+   
+}
+
+.square .main{
+    height: 250px;
+    width: auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.square h1{
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: left;
+    padding-left: 12px;
+    margin-top: -5px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.square p{
+    color:hsl(215, 24%, 51%);
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;    
+}
+
+.square .eth{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.square .eth-p{
+    color:hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25px;
+    margin-right: 61%;
+    margin-left:2px;
+    font-size: 12px;
+    font-family: 'Outfit', sans-serif;
+}
+.square .clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 62%;
+}
+
+.square .time{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: right;
+    margin-top: -27px;
+    margin-right: 10px;
+}
+
+.container .line{
+    width: 220px;
+    height: 47px;
+    border-bottom: 1px solid white;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.container .creator{
+    height: 30px;
+   padding-left: 20px;
+   margin-top: 8px;
+  
+}
+
+.container .author{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    font-size: 13px;
+}
